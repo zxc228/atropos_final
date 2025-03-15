@@ -1,0 +1,1 @@
+minio server ~/minio_data --console-address ":9001"
