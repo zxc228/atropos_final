@@ -1,21 +1,22 @@
 📌 Backend FastAPI (FFmpeg)
 №	Метод	URL	Описание
-1	POST	/videos/upload	Загрузка видео
-2	GET	/videos/{id}	Получение видео
-3	DELETE	/videos/{id}	Удаление видео
-4	GET	/videos/list	Получение списка видео
-5	POST	/videos/cut	Нарезка видео
-6	POST	/videos/convert	Конвертация формата
-7	POST	/videos/resize	Изменение разрешения
-8	POST	/videos/rotate	Поворот видео
-9	POST	/videos/crop	Обрезка видео
-10	POST	/videos/merge	Объединение видео
-11	POST	/videos/speed	Изменение скорости
-12	POST	/videos/subtitles	Добавление субтитров
-13	POST	/videos/watermark	Добавление водяного знака
-14	POST	/videos/audio	Замена аудиодорожки
-15	POST	/videos/fps	Изменение FPS
-16	POST	/videos/thumbnail	Генерация превью
+1	POST	/videos/upload	Загрузка видео DONE
+2	GET	/videos/{id}	Получение видео DONE
+3	DELETE	/videos/{id}	Удаление видео DONE
+4	GET	/videos/list	Получение списка видео DONE
+    GET /videos/download/{id} скачивание видео DONE
+5	POST	/editor/cut	Нарезка видео DONE
+6	POST	/editor/convert	Конвертация формата DONE
+7	POST	/editor/resize	Изменение разрешения DONE
+8	POST	/editor/rotate	Поворот видео НУЖНО ЛИ
+9	POST	/editor/crop	Обрезка видео FAILED
+10	POST	/editor/merge	Объединение видео DONE
+11	POST	/editor/speed	Изменение скорости
+12	POST	/editor/subtitles	Добавление субтитров
+13	POST	/editor/watermark	Добавление водяного знака
+14	POST	/editor/audio	Замена аудиодорожки
+15	POST	/editor/fps	Изменение FPS
+16	POST	/editor/thumbnail	Генерация превью
 17	POST	/queue/add	Добавление видео в очередь
 18	GET	/queue/status/{id}	Получение статуса обработки
 19	DELETE	/queue/remove/{id}	Удаление из очереди

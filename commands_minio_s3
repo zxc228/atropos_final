@@ -1,1 +1,4 @@
 minio server ~/minio_data --console-address ":9001"
+
+
+uvicorn app.main:app --host 0.0.0.0 --port 8228 --reload
